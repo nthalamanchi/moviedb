@@ -1,0 +1,36 @@
+.recommended-films-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recommended-films {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .recommended-films h3 {
+    color: #007bff;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .list-group-item-action {
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item-action.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
